@@ -196,7 +196,7 @@ button {
 
 .chapo {
   width: 900px;
-  font-size: 1.6em;
+  font-size: 25px;
   font-family: 'Work Sans';
   align-content: center;
   margin: auto;
@@ -383,13 +383,17 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
+padding: 10px
 }
 
 .news__image {
   display: block;
-  width: 100%;
 }
 
+.tiff {
+  display: flex;
+
+}
 .news__date {
   font-family: 'Montserrat', regular;
   margin: 0;
@@ -405,6 +409,7 @@ button {
 }
 
 .news__text {
+  font-family:'Work Sans';
   margin: 0;
   font-size: 1.4em;
   line-height: 1.4;
