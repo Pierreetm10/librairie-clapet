@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -66,7 +65,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', extralight;
   line-height: 1;
 }
 
@@ -92,14 +91,14 @@ button {
 
 .container {
   margin: auto;
-  padding: 0 15px;
-  width: 960px;
+  padding: 0 70px;
+  width: 1440px;
   max-width: 100%;
 }
 
 .text-container {
   margin: auto;
-  max-width: 960px;
+  max-width: 1440px;
 }
 
 .columns {
@@ -196,7 +195,11 @@ button {
 }
 
 .chapo {
+  width: 900px;
   font-size: 1.6em;
+  font-family: 'Work Sans';
+  align-content: center;
+  margin: auto;
 }
 
 .full-width {
@@ -221,9 +224,10 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  width: 1440px;
+  height: 462px;
+  max-width: 100%;
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -249,12 +253,21 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
-  margin: 0;
+  height: 78px;
+  font-family: "Montserrat";
+  font-size: 64px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+
 }
 
 .header__subtitle {
-  margin: 0;
+  height: 52px;
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
@@ -263,6 +276,7 @@ button {
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
 }
 
 .nav-main__item {
@@ -270,6 +284,11 @@ button {
 }
 
 .nav-main__link {
+  width: 240px;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  height: 32px;
   display: block;
   padding: 10px;
   color: #fff;
@@ -290,6 +309,7 @@ button {
   height: 1px;
   border: none;
   background-color: #d9d9d9;
+  background: url()
 }
 
 
@@ -371,6 +391,7 @@ button {
 }
 
 .news__date {
+  font-family: 'Montserrat', regular;
   margin: 0;
   font-size: 1.8em;
   color: #e8a27d;
@@ -474,4 +495,5 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  font-size: 64px;
 }
