@@ -197,6 +197,7 @@ button {
 .chapo {
   max-width: 900px;
   font-size: 25px;
+  line-height: normal;
   font-family: 'Work Sans';
   text-align: center;
   margin-left: auto;
@@ -509,11 +510,11 @@ button {
   display: flex;
 }
 .cover {
-  min-width: 400px;
+  min-width: 100%;
 
 }
 .enfant {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 .découverte {
