@@ -308,7 +308,7 @@ button {
   width: 200px;
   height: 1px;
   border: none;
-  background-color: #d9d9d9;
+  background-color: #272424;
   background: url()
 }
 
@@ -383,7 +383,7 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
-padding: 10px
+
 }
 
 .news__image {
