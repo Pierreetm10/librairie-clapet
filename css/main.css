@@ -91,9 +91,9 @@ button {
 
 .container {
   margin: auto;
-  padding: 0 90px;
-  width: 1440px;
-  max-width: 100%;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .text-container {
@@ -195,11 +195,12 @@ button {
 }
 
 .chapo {
-  width: 900px;
+  max-width: 900px;
   font-size: 25px;
   font-family: 'Work Sans';
-  align-content: center;
-  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .full-width {
@@ -502,3 +503,47 @@ button {
   margin-bottom: 35px;
   font-size: 64px;
 }
+
+
+.parent {
+  display: flex;
+}
+.cover {
+  min-width: 400px;
+
+}
+.enfant {
+  display: flex;
+  flex-direction: column;
+}
+.découverte {
+font-family: 'Work Sans', regular;
+font-size: 20px;
+}
+.citation1 {
+ font-family: 'Montserrat', extralight;
+ font-size: 24px;
+ color: #d86324  
+}
+.legende1 {
+  font-family: 'Work Sans', regular;
+  font-size: 16px;
+  text-align: right
+}
+.citation2 {
+  font-family: 'Montserrat', extralight;
+  font-size: 24px; 
+  color: #d86324   
+ }
+
+ .legende2 {
+  font-family: 'Work Sans', regular;
+  font-size: 16px;
+  text-align: right
+}
+.lynch {
+  font-family: 'Work Sans', regular;
+  font-size: 20px;
+  }
+
+  
